@@ -160,8 +160,7 @@ func main() {
 	if VERBOSE {
 		print("[ANSWER]\n")
 		for _, rr := range r.Answer {
-			var stringified = rr.String()
-			print(fmt.Sprintf("%s\n", stringified))
+			print(fmt.Sprintf("%s\n", rr.String()))
 
 			/*
 			var header = rr.Header()
