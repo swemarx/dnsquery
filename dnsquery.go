@@ -173,8 +173,7 @@ func main() {
 
 		print("[EXTRA]\n")
 		for _, rr := range r.Extra {
-			var stringified = rr.String()
-			print(fmt.Sprintf("%s\n", stringified))
+			print(fmt.Sprintf("%s\n", rr.String()))
 		}
 	}
 
